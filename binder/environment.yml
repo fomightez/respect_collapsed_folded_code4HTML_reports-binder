@@ -1,0 +1,10 @@
+name: respect_collapsed_folded_code4HTML_reports-binder_environment
+channels:
+  - conda-forge
+dependencies:
+  - sympy
+  - ipywidgets
+  - matplotlib
+  - seaborn
+  - pip
+
