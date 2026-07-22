@@ -46,16 +46,16 @@ Example:
 python convert_to_respect_collapsed_folded_code_and_allow_equations.py The_analysis.ipynb
 ```
 
-Output:
-    Creates an HTML file with the same base name as the input notebook.
-    For example: `The_analysis.ipynb` -> `The_analysis.html`
+Output:  
+Creates an HTML file with the same base name as the input notebook.  
+For example: `The_analysis.ipynb` -> `The_analysis.html`. 
 
 Features:
-    - Preserves MathJax equation rendering (In other words, equation/ math / formula rendering works. )
-    - Respects Jupyter's `source_hidden` metadata for collapsed cells
-    - Applies gray styling to collapsed code for visual distinction
-    - Hides the "`In [n]:`" prompt for collapsed cells while maintaining alignment
-    - Keeps outputs visible for all cells
+- Preserves MathJax equation rendering (In other words, equation/ math / formula rendering works. )
+- Respects Jupyter's `source_hidden` metadata for collapsed cells
+- Applies gray styling to collapsed code for visual distinction
+- Hides the "`In [n]:`" prompt for collapsed cells while maintaining alignment
+- Keeps outputs visible for all cells
 
 
 This is fleshed out version of the discussion [here](https://discourse.jupyter.org/t/equations-rendered-in-notebook-print-preview-not-in-jupyter-lab-print-preview/6081/2?u=fomightez), in particular the end of that reply by `callegar` and [here](https://discourse.jupyter.org/t/structuring-a-reproducible-notebook-for-reviewing-ai-generated-image-drafts/38784/2?u=fomightez).
