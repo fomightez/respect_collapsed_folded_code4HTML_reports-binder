@@ -64,6 +64,7 @@ This is fleshed out version of the discussion [here](https://discourse.jupyter.o
 ------
 
 TO DO STILL:
+- add images of the resulting collapsed code represetnatin. Even better add a before and after and indicate the meta-tag with a like a overlay cartton bubble with an arrow pointing at the cell.
 
 - I developed a script that will take a tar.gz archive that is a directory with a lot of images in it, or a n actualdirectory with a lot of images, and unpack it, if necessary, and embed the many,many images in markdown of a `.ipynb` file **without you needing to drag-and-drop each one in**. The idea is that the `convert_to_respect_collapsed_folded_code_and_allow_equations.py` can then be pointed at this `.ipynb` file to make an HTML and then PDF with all the images so you can more easily send this 'report' to a colleague. I need to put that script `script_to_embed_encode_images_in_directory_into_markdown_report.py` here with a demo. One improvement to that script implemeted is to also allow pointing it at a directory so should demonstrate both! The demo can make use of the code in `https://github.com/fomightez/imgs2RISEslides/blob/master/imgs2RISEslides.ipy`, specifically the part under `def make_placeholder_images(img_dir):` to make a directory full of images that can then be used with the demo directly as well as tar.gz'd form.
 
