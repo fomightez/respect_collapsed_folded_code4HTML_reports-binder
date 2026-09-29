@@ -1,5 +1,6 @@
 # respect_collapsed_folded_code4HTML_reports-binder
-Demonstrates converting a Jupyter notebook (.ipynb) to HTML while respecting collapsed/folded cells and preserves MathJax equation rendering.
+Demonstrates converting a Jupyter notebook (.ipynb) to HTML while respecting collapsed/folded cells and preserving MathJax equation rendering.  
+The idea is this lets you more easily create nice reports from Jupyter `.ipynb` files.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/respect_collapsed_folded_code4HTML_reports-binder/HEAD?urlpath=%2Flab%2Ftree%2Fdemo.ipynb) 
 
@@ -18,7 +19,7 @@ You can use `jupyter nbconvert --no-input --to HTML` if you don't want any of th
 
 ### Want some of the input cells to show but not all? Want some indicator of the ones not fully being shown?
 
-This repo demonstrates just that:
+This repo demonstrates just that so that you can make report files with full control of how code shown or not shown in the derived files:
 
 
 #### DETAILS  
